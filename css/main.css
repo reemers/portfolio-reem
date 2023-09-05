@@ -278,6 +278,7 @@ footer .content-wrapper {
   margin: 10px auto 10px auto;
   font-size: 1.625em;
   line-height: 25px;
+  background-color: rgb(34, 2, 34);
 }
 
 .about-me {
@@ -285,6 +286,7 @@ footer .content-wrapper {
   line-height: 20px;
   width: 80%;
   margin: 10px auto;
+  background-color: rgb(34, 2, 34);
 }
 
 /* Skills */

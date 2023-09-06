@@ -99,10 +99,7 @@ body {
   font-family: Calibri, sans-serif;
   font-size: 1em;
   text-align: center;
-  background-image: url("../img/bg-stars.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: dark #1a021a;
 }
 
 ul,
@@ -279,17 +276,10 @@ footer .content-wrapper {
   line-height: 25px;
 }
 .about-me {
-  font-size: 1.3em;
-  line-height: 40px;
-  width: 90%;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px 20px;
-  border: 1px solid black;
-  border-radius: 18px;
-  background: #7dce8260;
+  font-size: 1.15em;
+  line-height: 20px;
+  width: 80%;
+  margin: 10px auto;
 }
 
 /* Skills */

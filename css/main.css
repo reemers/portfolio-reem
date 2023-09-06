@@ -338,27 +338,6 @@ footer .content-wrapper {
   font-size: 1em;
 }
 
-.cardbox::before,
-.cardbox::after {
-  content: "";
-  width: 10%;
-  height: 100%;
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  filter: blur(40px);
-}
-
-.cardbox::before {
-  left: 0;
-  background: rgba(245, 245, 245, 0.9);
-}
-
-.cardbox::after {
-  right: 0;
-  background: rgba(245, 245, 245, 0.9);
-}
-
 .under-cardbox {
   animation: move 25s linear 2s infinite alternate;
   display: flex;

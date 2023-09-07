@@ -274,15 +274,17 @@ footer .content-wrapper {
   color: #33658a;
 }
 .statement {
-  margin: 10px auto 10px auto;
-  font-size: 1.625em;
-  line-height: 25px;
-}
-.about-me {
-  font-size: 1.15em;
-  line-height: 20px;
-  width: 80%;
-  margin: 10px auto;
+  width: 100%;
+  max-width: 600px;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 20px;
+  border: 1px solid black;
+  border-radius: 18px;
+  background: #7dce8260;
 }
 
 /* Skills */

@@ -12,20 +12,20 @@
    ========================================================================== */
 
 html {
-  color: white;
+  color: black;
   font-size: 1em;
   line-height: 1.4;
 }
 
 /*
-   * Remove text-shadow in selection highlight:
-   * https://twitter.com/miketaylr/status/12228805301
-   *
-   * Vendor-prefixed and regular ::selection selectors cannot be combined:
-   * https://stackoverflow.com/a/16982510/7133471
-   *
-   * Customize the background color to match your design.
-   */
+       * Remove text-shadow in selection highlight:
+       * https://twitter.com/miketaylr/status/12228805301
+       *
+       * Vendor-prefixed and regular ::selection selectors cannot be combined:
+       * https://stackoverflow.com/a/16982510/7133471
+       *
+       * Customize the background color to match your design.
+       */
 
 ::-moz-selection {
   background: #b3d4fc;
@@ -38,8 +38,8 @@ html {
 }
 
 /*
-   * A better looking default horizontal rule
-   */
+       * A better looking default horizontal rule
+       */
 
 hr {
   display: block;
@@ -51,10 +51,10 @@ hr {
 }
 
 /*
-   * Remove the gap between audio, canvas, iframes,
-   * images, videos and the bottom of their containers:
-   * https://github.com/h5bp/html5-boilerplate/issues/440
-   */
+       * Remove the gap between audio, canvas, iframes,
+       * images, videos and the bottom of their containers:
+       * https://github.com/h5bp/html5-boilerplate/issues/440
+       */
 
 audio,
 canvas,
@@ -66,8 +66,8 @@ video {
 }
 
 /*
-   * Remove default fieldset styles.
-   */
+       * Remove default fieldset styles.
+       */
 
 fieldset {
   border: 0;
@@ -76,16 +76,16 @@ fieldset {
 }
 
 /*
-   * Allow only vertical resizing of textareas.
-   */
+       * Allow only vertical resizing of textareas.
+       */
 
 textarea {
   resize: vertical;
 }
 
 /* ==========================================================================
-     Author's custom styles
-     ========================================================================== */
+         Author's custom styles
+         ========================================================================== */
 
 /* General Styles */
 
@@ -96,13 +96,9 @@ html {
 }
 
 body {
-  font-family: Poppins, sans-serif;
+  font-family: Raleway, sans-serif;
   font-size: 1em;
   text-align: center;
-  background-image: url("../img/bg-stars.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 ul,
@@ -114,11 +110,11 @@ ol {
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 h2 {
-  font-family: "IBM Plex Serif", serif;
+  font-family: Raleway, serif;
   font-size: 3.2em;
   font-weight: 400;
 }
@@ -273,13 +269,11 @@ footer .content-wrapper {
 .about h2 span {
   color: #33658a;
 }
-
 .statement {
   margin: 10px auto 10px auto;
   font-size: 1.625em;
   line-height: 25px;
 }
-
 .about-me {
   font-size: 1.15em;
   line-height: 20px;
@@ -335,27 +329,6 @@ footer .content-wrapper {
   position: relative;
   text-align: center;
   font-size: 1em;
-}
-
-.cardbox::before,
-.cardbox::after {
-  content: "";
-  width: 10%;
-  height: 100%;
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  filter: blur(40px);
-}
-
-.cardbox::before {
-  left: 0;
-  background: rgba(245, 245, 245, 0.9);
-}
-
-.cardbox::after {
-  right: 0;
-  background: rgba(245, 245, 245, 0.9);
 }
 
 .under-cardbox {
@@ -476,8 +449,8 @@ footer .footer-left {
 }
 
 /* ==========================================================================
-     Breakpoints
-     ========================================================================== */
+         Breakpoints
+         ========================================================================== */
 
 /* -------------------- Tablet Styles - Homepage -------------------- */
 
@@ -707,12 +680,12 @@ footer .footer-left {
 }
 
 /* ==========================================================================
-     Helper classes
-     ========================================================================== */
+         Helper classes
+         ========================================================================== */
 
 /*
-   * Hide visually and from screen readers
-   */
+       * Hide visually and from screen readers
+       */
 
 .hidden,
 [hidden] {
@@ -720,13 +693,13 @@ footer .footer-left {
 }
 
 /*
-   * Hide only visually, but have it available for screen readers:
-   * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
-   *
-   * 1. For long content, line feeds are not interpreted as spaces and small width
-   *    causes content to wrap 1 word per line:
-   *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
-   */
+       * Hide only visually, but have it available for screen readers:
+       * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+       *
+       * 1. For long content, line feeds are not interpreted as spaces and small width
+       *    causes content to wrap 1 word per line:
+       *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+       */
 
 .sr-only {
   border: 0;
@@ -742,10 +715,10 @@ footer .footer-left {
 }
 
 /*
-   * Extends the .sr-only class to allow the element
-   * to be focusable when navigated to via the keyboard:
-   * https://www.drupal.org/node/897638
-   */
+       * Extends the .sr-only class to allow the element
+       * to be focusable when navigated to via the keyboard:
+       * https://www.drupal.org/node/897638
+       */
 
 .sr-only.focusable:active,
 .sr-only.focusable:focus {
@@ -759,24 +732,24 @@ footer .footer-left {
 }
 
 /*
-   * Hide visually and from screen readers, but maintain layout
-   */
+       * Hide visually and from screen readers, but maintain layout
+       */
 
 .invisible {
   visibility: hidden;
 }
 
 /*
-   * Clearfix: contain floats
-   *
-   * For modern browsers
-   * 1. The space content is one way to avoid an Opera bug when the
-   *    `contenteditable` attribute is included anywhere else in the document.
-   *    Otherwise it causes space to appear at the top and bottom of elements
-   *    that receive the `clearfix` class.
-   * 2. The use of `table` rather than `block` is only necessary if using
-   *    `:before` to contain the top-margins of child elements.
-   */
+       * Clearfix: contain floats
+       *
+       * For modern browsers
+       * 1. The space content is one way to avoid an Opera bug when the
+       *    `contenteditable` attribute is included anywhere else in the document.
+       *    Otherwise it causes space to appear at the top and bottom of elements
+       *    that receive the `clearfix` class.
+       * 2. The use of `table` rather than `block` is only necessary if using
+       *    `:before` to contain the top-margins of child elements.
+       */
 
 .clearfix::before,
 .clearfix::after {
@@ -789,10 +762,10 @@ footer .footer-left {
 }
 
 /* ==========================================================================
-     EXAMPLE Media Queries for Responsive Design.
-     These examples override the primary ('mobile first') styles.
-     Modify as content requires.
-     ========================================================================== */
+         EXAMPLE Media Queries for Responsive Design.
+         These examples override the primary ('mobile first') styles.
+         Modify as content requires.
+         ========================================================================== */
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
@@ -806,10 +779,10 @@ footer .footer-left {
 }
 
 /* ==========================================================================
-     Print styles.
-     Inlined to avoid the additional HTTP request:
-     https://www.phpied.com/delay-loading-your-print-css/
-     ========================================================================== */
+         Print styles.
+         Inlined to avoid the additional HTTP request:
+         https://www.phpied.com/delay-loading-your-print-css/
+         ========================================================================== */
 
 @media print {
   *,
@@ -836,9 +809,9 @@ footer .footer-left {
   }
 
   /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
+         * Don't show links that are fragment identifiers,
+         * or use the `javascript:` pseudo protocol
+         */
   a[href^="#"]::after,
   a[href^="javascript:"]::after {
     content: "";
@@ -855,9 +828,9 @@ footer .footer-left {
   }
 
   /*
-     * Printing Tables:
-     * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
+         * Printing Tables:
+         * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+         */
   thead {
     display: table-header-group;
   }

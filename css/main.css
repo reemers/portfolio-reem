@@ -18,6 +18,7 @@ html {
 }
 
 /*
+<<<<<<< HEAD
        * Remove text-shadow in selection highlight:
        * https://twitter.com/miketaylr/status/12228805301
        *
@@ -26,6 +27,16 @@ html {
        *
        * Customize the background color to match your design.
        */
+=======
+     * Remove text-shadow in selection highlight:
+     * https://twitter.com/miketaylr/status/12228805301
+     *
+     * Vendor-prefixed and regular ::selection selectors cannot be combined:
+     * https://stackoverflow.com/a/16982510/7133471
+     *
+     * Customize the background color to match your design.
+     */
+>>>>>>> gh-pages
 
 ::-moz-selection {
   background: #b3d4fc;
@@ -38,8 +49,13 @@ html {
 }
 
 /*
+<<<<<<< HEAD
        * A better looking default horizontal rule
        */
+=======
+     * A better looking default horizontal rule
+     */
+>>>>>>> gh-pages
 
 hr {
   display: block;
@@ -51,10 +67,17 @@ hr {
 }
 
 /*
+<<<<<<< HEAD
        * Remove the gap between audio, canvas, iframes,
        * images, videos and the bottom of their containers:
        * https://github.com/h5bp/html5-boilerplate/issues/440
        */
+=======
+     * Remove the gap between audio, canvas, iframes,
+     * images, videos and the bottom of their containers:
+     * https://github.com/h5bp/html5-boilerplate/issues/440
+     */
+>>>>>>> gh-pages
 
 audio,
 canvas,
@@ -66,8 +89,13 @@ video {
 }
 
 /*
+<<<<<<< HEAD
        * Remove default fieldset styles.
        */
+=======
+     * Remove default fieldset styles.
+     */
+>>>>>>> gh-pages
 
 fieldset {
   border: 0;
@@ -76,16 +104,26 @@ fieldset {
 }
 
 /*
+<<<<<<< HEAD
        * Allow only vertical resizing of textareas.
        */
+=======
+     * Allow only vertical resizing of textareas.
+     */
+>>>>>>> gh-pages
 
 textarea {
   resize: vertical;
 }
 
 /* ==========================================================================
+<<<<<<< HEAD
          Author's custom styles
          ========================================================================== */
+=======
+       Author's custom styles
+       ========================================================================== */
+>>>>>>> gh-pages
 
 /* General Styles */
 
@@ -449,8 +487,13 @@ footer .footer-left {
 }
 
 /* ==========================================================================
+<<<<<<< HEAD
          Breakpoints
          ========================================================================== */
+=======
+       Breakpoints
+       ========================================================================== */
+>>>>>>> gh-pages
 
 /* -------------------- Tablet Styles - Homepage -------------------- */
 
@@ -680,12 +723,21 @@ footer .footer-left {
 }
 
 /* ==========================================================================
+<<<<<<< HEAD
          Helper classes
          ========================================================================== */
 
 /*
        * Hide visually and from screen readers
        */
+=======
+       Helper classes
+       ========================================================================== */
+
+/*
+     * Hide visually and from screen readers
+     */
+>>>>>>> gh-pages
 
 .hidden,
 [hidden] {
@@ -693,6 +745,7 @@ footer .footer-left {
 }
 
 /*
+<<<<<<< HEAD
        * Hide only visually, but have it available for screen readers:
        * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
        *
@@ -700,6 +753,15 @@ footer .footer-left {
        *    causes content to wrap 1 word per line:
        *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
        */
+=======
+     * Hide only visually, but have it available for screen readers:
+     * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+     *
+     * 1. For long content, line feeds are not interpreted as spaces and small width
+     *    causes content to wrap 1 word per line:
+     *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+     */
+>>>>>>> gh-pages
 
 .sr-only {
   border: 0;
@@ -715,10 +777,17 @@ footer .footer-left {
 }
 
 /*
+<<<<<<< HEAD
        * Extends the .sr-only class to allow the element
        * to be focusable when navigated to via the keyboard:
        * https://www.drupal.org/node/897638
        */
+=======
+     * Extends the .sr-only class to allow the element
+     * to be focusable when navigated to via the keyboard:
+     * https://www.drupal.org/node/897638
+     */
+>>>>>>> gh-pages
 
 .sr-only.focusable:active,
 .sr-only.focusable:focus {
@@ -732,14 +801,20 @@ footer .footer-left {
 }
 
 /*
+<<<<<<< HEAD
        * Hide visually and from screen readers, but maintain layout
        */
+=======
+     * Hide visually and from screen readers, but maintain layout
+     */
+>>>>>>> gh-pages
 
 .invisible {
   visibility: hidden;
 }
 
 /*
+<<<<<<< HEAD
        * Clearfix: contain floats
        *
        * For modern browsers
@@ -750,6 +825,18 @@ footer .footer-left {
        * 2. The use of `table` rather than `block` is only necessary if using
        *    `:before` to contain the top-margins of child elements.
        */
+=======
+     * Clearfix: contain floats
+     *
+     * For modern browsers
+     * 1. The space content is one way to avoid an Opera bug when the
+     *    `contenteditable` attribute is included anywhere else in the document.
+     *    Otherwise it causes space to appear at the top and bottom of elements
+     *    that receive the `clearfix` class.
+     * 2. The use of `table` rather than `block` is only necessary if using
+     *    `:before` to contain the top-margins of child elements.
+     */
+>>>>>>> gh-pages
 
 .clearfix::before,
 .clearfix::after {
@@ -762,10 +849,17 @@ footer .footer-left {
 }
 
 /* ==========================================================================
+<<<<<<< HEAD
          EXAMPLE Media Queries for Responsive Design.
          These examples override the primary ('mobile first') styles.
          Modify as content requires.
          ========================================================================== */
+=======
+       EXAMPLE Media Queries for Responsive Design.
+       These examples override the primary ('mobile first') styles.
+       Modify as content requires.
+       ========================================================================== */
+>>>>>>> gh-pages
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
@@ -779,10 +873,17 @@ footer .footer-left {
 }
 
 /* ==========================================================================
+<<<<<<< HEAD
          Print styles.
          Inlined to avoid the additional HTTP request:
          https://www.phpied.com/delay-loading-your-print-css/
          ========================================================================== */
+=======
+       Print styles.
+       Inlined to avoid the additional HTTP request:
+       https://www.phpied.com/delay-loading-your-print-css/
+       ========================================================================== */
+>>>>>>> gh-pages
 
 @media print {
   *,
@@ -809,9 +910,15 @@ footer .footer-left {
   }
 
   /*
+<<<<<<< HEAD
          * Don't show links that are fragment identifiers,
          * or use the `javascript:` pseudo protocol
          */
+=======
+       * Don't show links that are fragment identifiers,
+       * or use the `javascript:` pseudo protocol
+       */
+>>>>>>> gh-pages
   a[href^="#"]::after,
   a[href^="javascript:"]::after {
     content: "";
@@ -828,9 +935,15 @@ footer .footer-left {
   }
 
   /*
+<<<<<<< HEAD
          * Printing Tables:
          * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
          */
+=======
+       * Printing Tables:
+       * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+       */
+>>>>>>> gh-pages
   thead {
     display: table-header-group;
   }

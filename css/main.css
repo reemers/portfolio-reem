@@ -303,16 +303,17 @@ footer .content-wrapper {
   max-width: 100%; /* Adjust to your desired max-width */
   justify-content: center; /* Center items horizontally */
   align-items: center; /* Center items vertically */
+  padding: 20px; /* Add padding to create space on the left and right */
 }
 
 .card {
-  flex: 1 1 calc(16% - 20px); /* To display 6 items per line (you can adjust this as needed) */
+  flex: 1 1 calc(12% - 20px); /* To display 6 items per line (you can adjust this as needed) */
   max-width: calc(
-    16% - 20px
+    12% - 20px
   ); /* To display 6 items per line (you can adjust this as needed) */
   background: #7dce8260;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding: 15px;
   text-align: center;
   border-radius: 5px;
   margin: 10px; /* Add margin for spacing */
@@ -332,7 +333,8 @@ footer .content-wrapper {
 .card .caption {
   position: relative;
   text-align: center;
-  font-size: 80%;
+  font-size: 100%; /* Adjust font size as needed to fit within the card */
+  line-height: 1.2; /* Optional: Adjust line height for better readability */
 }
 
 @keyframes move {
@@ -402,7 +404,7 @@ footer .content-wrapper {
 .project-link {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #44318d;
   color: #c8c0b8;
   text-decoration: none;
   font-size: 1rem; /* Adjust font size as needed */

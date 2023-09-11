@@ -187,7 +187,9 @@ header .content-wrapper {
 }
 
 .header-right li {
-  display: inline;
+  display: inline-block;
+  margin-right: 10px; /* Add spacing between items as needed */
+  font-size: 16px; /* Adjust the font size as needed */
 }
 
 .header-right a {
@@ -462,6 +464,16 @@ footer .footer-left {
 /* ==========================================================================Breakpoints========================================================================== */
 
 /* -------------------- Tablet Styles - Homepage -------------------- */
+@media (max-width: 768px) {
+  .project-item {
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center horizontally */
+  }
+  .header-right li {
+    font-size: 14px; /* Reduce the font size for smaller screens */
+    margin-right: 5px; /* Adjust spacing for smaller screens */
+  }
+}
 
 @media only screen and (min-width: 768px) {
   /* General styles*/
@@ -577,10 +589,6 @@ footer .footer-left {
   .projects-wrapper {
     flex-direction: column;
     align-items: center;
-  }
-
-  .project-item {
-    width: 100%;
   }
 }
 /* -------------------- Desktop Styles - Homepage -------------------- */

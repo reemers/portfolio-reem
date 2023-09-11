@@ -748,11 +748,10 @@ footer .footer-left {
 }
 
 /*
-<<<<<<< HEAD
-       * Hide visually and from screen readers, but maintain layout
-       */
-======= * Hide visually and from screen readers,
-but maintain layout .invisible {
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
   visibility: hidden;
 }
 

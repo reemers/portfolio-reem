@@ -336,7 +336,7 @@ footer .content-wrapper {
   position: relative;
   text-align: center;
   font-size: 100%; /* Adjust font size as needed to fit within the card */
-  line-height: 1.2; /* Optional: Adjust line height for better readability */
+  line-height: 0; /* Optional: Adjust line height for better readability */
 }
 
 @keyframes move {
@@ -348,6 +348,47 @@ footer .content-wrapper {
   }
 }
 
+/* Companies */
+.companies {
+  padding-top: 40px;
+  background: #111827;
+  border-radius: 40px 40px 40px 40px;
+  color: #fff;
+  padding: 60px 90px;
+}
+.companies p {
+  margin: 10px auto 10px auto;
+  font-size: 1.625em;
+  line-height: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.companies-container {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center the items horizontally */
+  align-items: center; /* Center the items vertically */
+
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 100%;
+
+  padding: 10px;
+}
+
+.company {
+  margin: 20px 20px 20px 20px; /* Add some margin between the images */
+}
+
+.companyimg {
+  background-color: whitesmoke;
+  width: 150px; /* Set the width to your desired size */
+  height: 150px; /* Set the height to your desired size */
+  display: flex;
+  padding-top: 0px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
 /* Projects */
 
 .projects h2 span {

@@ -259,7 +259,7 @@ footer .content-wrapper {
 
 .imageContainer {
   position: absolute;
-  max-width: 450px;
+  max-width: 500px;
 }
 
 .hide {
@@ -700,7 +700,7 @@ footer .footer-left {
   /* About */
 
   .about-style {
-    width: 40%;
+    width: 60%;
     margin-bottom: 30px;
   }
 

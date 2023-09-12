@@ -337,6 +337,8 @@ footer .content-wrapper {
   text-align: center;
   font-size: 100%; /* Adjust font size as needed to fit within the card */
   line-height: 1.2; /* Optional: Adjust line height for better readability */
+  visibility: visible;
+  display: block;
 }
 
 @keyframes move {
@@ -515,6 +517,10 @@ footer .footer-left {
   .header-right li {
     font-size: 14px; /* Reduce the font size for smaller screens */
     margin-right: 5px; /* Adjust spacing for smaller screens */
+  }
+
+  .card .caption {
+    display: none;
   }
 }
 

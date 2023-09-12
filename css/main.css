@@ -134,7 +134,7 @@ a {
 }
 
 p {
-  line-height: 14px;
+  line-height: 20px;
 }
 
 img {
@@ -655,10 +655,6 @@ footer .footer-left {
 
   h2 {
     font-size: 6em;
-  }
-
-  p {
-    font-size: 1.25em;
   }
 
   /* Header and Footer styles */

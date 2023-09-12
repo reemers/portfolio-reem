@@ -398,9 +398,8 @@ footer .content-wrapper {
 .projects-wrapper {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+
   flex-wrap: wrap;
-  align-items: center;
 }
 
 .project-item {
@@ -425,6 +424,7 @@ footer .content-wrapper {
 .skills-tools {
   font-size: 1rem; /* Adjust font size as needed */
   margin: 10px 0;
+  flex-grow: 1;
   line-height: 15px;
   text-align: left;
 }

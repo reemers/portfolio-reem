@@ -403,6 +403,8 @@ footer .content-wrapper {
 }
 
 .project-item {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   width: 45%; /* Adjust as needed for the desired spacing between project items */
   margin: 10px;

@@ -336,7 +336,7 @@ footer .content-wrapper {
   position: relative;
   text-align: center;
   font-size: 100%; /* Adjust font size as needed to fit within the card */
-  line-height: 0; /* Optional: Adjust line height for better readability */
+  line-height: 1.2; /* Optional: Adjust line height for better readability */
 }
 
 @keyframes move {

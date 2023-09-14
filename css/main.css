@@ -607,7 +607,7 @@ footer .footer-left {
   /* General styles*/
 
   .content-wrapper {
-    max-width: 80%;
+    max-width: 100%;
     margin-top: 100px;
   }
 
@@ -761,7 +761,7 @@ footer .footer-left {
   /* About */
 
   .about-style {
-    width: 60%;
+    width: 100%;
     margin-bottom: 30px;
   }
 

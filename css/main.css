@@ -564,6 +564,20 @@ footer .footer-left {
   }
 }
 
+@media (max-width: 950px) {
+  /* About */
+  .about .content-wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-style,
+  .avatar {
+    width: 100%;
+    margin: 0;
+  }
+}
 @media (max-width: 768px) {
   .project-item {
     width: 80%; /* Adjust the width as needed */
@@ -639,10 +653,6 @@ footer .footer-left {
 
   .about p {
     margin: 5px 0;
-  }
-
-  .about .palette {
-    margin-left: -10px;
   }
 
   /* Skills */

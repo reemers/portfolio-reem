@@ -466,7 +466,17 @@ footer .content-wrapper {
 /* Contact */
 
 .contact {
-  margin-left: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+.contact-details {
+  flex: 2; /* Adjust flex ratio as needed */
+  width: 90%;
+  margin: 25px auto;
+  margin-left: 50px;
 }
 
 .contact h2 {
@@ -477,6 +487,13 @@ footer .content-wrapper {
 
 .contact h2 span {
   color: #db8a74;
+}
+
+.contact-details .social-icon {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 50px;
 }
 
 .contact address {
@@ -490,12 +507,14 @@ footer .content-wrapper {
   text-decoration-color: #db8a74;
   text-underline-offset: 8px;
 }
-
-.contact .social-icon {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  font-size: 50px;
+.contact-image {
+  flex: 1; /* Adjust flex ratio as needed */
+  margin-left: 5px; /* Add spacing between the image and other elements */
+}
+.contact-image img {
+  max-width: 80%; /* Make the image responsive within its container */
+  height: auto; /* Maintain aspect ratio */
+  width: auto; /* Allow the image to shrink as needed */
 }
 
 /* Mobile Footer */
@@ -518,6 +537,9 @@ footer .footer-left {
   }
 
   .card .caption {
+    display: none;
+  }
+  .contact-image {
     display: none;
   }
 }

@@ -535,6 +535,16 @@ footer .footer-left {
     font-size: 14px; /* Reduce the font size for smaller screens */
     margin-right: 5px; /* Adjust spacing for smaller screens */
   }
+  .card {
+    flex: 1 1 calc(33.33% - 20px); /* To display 3 items per line */
+    max-width: calc(33.33% - 20px); /* To display 3 items per line */
+  }
+
+  .cardimg {
+    max-width: 100%; /* Adjust the width as needed */
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
 
   .card .caption {
     display: none;
@@ -601,24 +611,6 @@ footer .footer-left {
   }
 
   /* Skills */
-
-  .navigation .nav-btn {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-  }
-
-  .navigation .prev {
-    font-size: 40px;
-    top: 30%;
-    left: 10px;
-  }
-
-  .navigation .next {
-    font-size: 40px;
-    z-index: 10;
-    top: 30%;
-  }
 
   .caption {
     font-size: 1.1em;

@@ -545,6 +545,23 @@ footer .footer-left {
   .header-right ul {
     font-size: 1em; /* Adjust font size as needed */
   }
+  .contact {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    margin-left: 0%;
+  }
+  .contact .contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-left: 0%;
+  }
 }
 
 @media (max-width: 768px) {

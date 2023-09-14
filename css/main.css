@@ -526,6 +526,12 @@ footer .footer-left {
 /* ==========================================================================Breakpoints========================================================================== */
 
 /* -------------------- Tablet Styles - Homepage -------------------- */
+@media (max-width: 400px) {
+  .card .caption {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   .project-item {
     width: 80%; /* Adjust the width as needed */
@@ -546,9 +552,6 @@ footer .footer-left {
     height: auto; /* Maintain aspect ratio */
   }
 
-  .card .caption {
-    display: none;
-  }
   .contact-image {
     display: none;
   }

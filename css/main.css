@@ -188,8 +188,8 @@ header .content-wrapper {
 
 .header-right li {
   display: inline-block;
-  margin-right: 10px; /* Add spacing between items as needed */
-  font-size: 16px; /* Adjust the font size as needed */
+  margin-right: 10px;
+  font-size: 16px;
 }
 
 .header-right a {
@@ -302,28 +302,26 @@ footer .content-wrapper {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  max-width: 100%; /* Adjust to your desired max-width */
-  justify-content: center; /* Center items horizontally */
-  align-items: center; /* Center items vertically */
-  padding: 20px; /* Add padding to create space on the left and right */
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 .card {
-  flex: 1 1 calc(12% - 20px); /* To display 6 items per line (you can adjust this as needed) */
-  max-width: calc(
-    12% - 20px
-  ); /* To display 6 items per line (you can adjust this as needed) */
+  flex: 1 1 calc(12% - 20px);
+  max-width: calc(12% - 20px);
   background: #7dce8260;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 15px;
   text-align: center;
   border-radius: 5px;
-  margin: 10px; /* Add margin for spacing */
+  margin: 10px;
 }
 
 .cardimg {
   max-width: 100%;
-  width: 100%; /* Adjust the width as needed */
+  width: 100%;
   height: auto;
 }
 
@@ -335,8 +333,8 @@ footer .content-wrapper {
 .card .caption {
   position: relative;
   text-align: center;
-  font-size: 100%; /* Adjust font size as needed to fit within the card */
-  line-height: 1.2; /* Optional: Adjust line height for better readability */
+  font-size: 100%;
+  line-height: 1.2;
   visibility: visible;
   display: block;
 }
@@ -366,9 +364,9 @@ footer .content-wrapper {
   padding-right: 10px;
 }
 .companies-container {
-  display: flex; /* Use flexbox */
-  justify-content: center; /* Center the items horizontally */
-  align-items: center; /* Center the items vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   flex-wrap: wrap;
   gap: 20px;
@@ -378,13 +376,13 @@ footer .content-wrapper {
 }
 
 .company {
-  margin: 20px 20px 20px 20px; /* Add some margin between the images */
+  margin: 20px 20px 20px 20px;
 }
 
 .companyimg {
   background-color: whitesmoke;
-  width: 150px; /* Set the width to your desired size */
-  height: 150px; /* Set the height to your desired size */
+  width: 150px;
+  height: 150px;
   display: flex;
   padding-top: 0px;
   align-items: center;
@@ -408,18 +406,17 @@ footer .content-wrapper {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 45%; /* Adjust as needed for the desired spacing between project items */
+  width: 45%;
   margin: 10px;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 5px;
   background: #7dce8260;
-  transition: transform 0.3s ease; /* Add a smooth transition */
+  transition: transform 0.3s ease;
 }
 
-/* Add a hover effect to move the project item on hover */
 .project-item:hover {
-  transform: translateY(-10px); /* Move the item 10 pixels up */
+  transform: translateY(-10px);
   color: red;
   background-color: pink;
 }
@@ -434,7 +431,7 @@ footer .content-wrapper {
   height: auto;
 }
 .skills-tools {
-  font-size: 1rem; /* Adjust font size as needed */
+  font-size: 1rem;
   margin: 10px 0;
   flex-grow: 1;
   line-height: 15px;
@@ -445,14 +442,14 @@ footer .content-wrapper {
 }
 
 .project-description {
-  font-size: 1rem; /* Adjust font size as needed */
+  font-size: 1rem;
   margin: 10px 0;
   line-height: 15px;
   text-align: left;
 }
 
 .project-title {
-  font-size: 1.5rem; /* Adjust font size as needed */
+  font-size: 1.5rem;
   margin: 10px 0;
 }
 
@@ -463,16 +460,16 @@ footer .content-wrapper {
   text-align: center;
   background-color: #007bff;
   color: #fff;
-  padding: 8px 16px; /* Adjust padding to your preference */
+  padding: 8px 16px;
   border-radius: 4px;
   transition: color 0.3s ease;
   text-decoration: none;
-  font-size: 14px; /* Adjust font size to your preference */
-  margin: 10px auto; /* Center the link horizontally */
-  width: fit-content; /* Only take the necessary width */
+  font-size: 14px;
+  margin: 10px auto;
+  width: fit-content;
 }
 .project-link:hover {
-  color: red; /* Change the text color to red on hover */
+  color: red;
   background-color: purple;
 }
 /* Contact */
@@ -485,7 +482,7 @@ footer .content-wrapper {
 }
 
 .contact-details {
-  flex: 2; /* Adjust flex ratio as needed */
+  flex: 2;
   width: 90%;
   margin: 25px auto;
   margin-left: 50px;
@@ -520,13 +517,13 @@ footer .content-wrapper {
   text-underline-offset: 8px;
 }
 .contact-image {
-  flex: 1; /* Adjust flex ratio as needed */
-  margin-left: 5px; /* Add spacing between the image and other elements */
+  flex: 1;
+  margin-left: 5px;
 }
 .contact-image img {
-  max-width: 80%; /* Make the image responsive within its container */
-  height: auto; /* Maintain aspect ratio */
-  width: auto; /* Allow the image to shrink as needed */
+  max-width: 80%;
+  height: auto;
+  width: auto;
 }
 
 /* Mobile Footer */
@@ -543,19 +540,19 @@ footer .footer-left {
     display: none;
   }
   .header-right ul {
-    white-space: nowrap; /* Prevent items from wrapping */
-    overflow-x: auto; /* Add horizontal scrollbar if needed */
-    padding-bottom: 10px; /* Add some space at the bottom */
+    white-space: nowrap;
+    overflow-x: auto;
+    padding-bottom: 10px;
   }
 
   .header-right li {
-    font-size: 14px; /* Resize font size as needed */
-    margin-right: 10px; /* Adjust spacing between items */
+    font-size: 14px;
+    margin-right: 10px;
   }
 
   .header-left h1,
   .header-right ul {
-    font-size: 1em; /* Adjust font size as needed */
+    font-size: 1em;
   }
   .contact {
     display: flex;
@@ -581,14 +578,14 @@ footer .footer-left {
     text-align: center;
   }
   footer .footer-right ul {
-    white-space: nowrap; /* Prevent items from wrapping */
-    overflow-x: auto; /* Add horizontal scrollbar if needed */
-    padding-bottom: 10px; /* Add some space at the bottom */
+    white-space: nowrap;
+    overflow-x: auto;
+    padding-bottom: 10px;
   }
 
   footer .footer-right li {
-    font-size: 14px; /* Resize font size as needed */
-    margin-right: 10px; /* Adjust spacing between items */
+    font-size: 14px;
+    margin-right: 10px;
   }
 }
 
@@ -633,22 +630,22 @@ footer .footer-left {
 }
 @media (max-width: 768px) {
   .project-item {
-    width: 80%; /* Adjust the width as needed */
-    margin: 0 auto; /* Center horizontally */
+    width: 80%;
+    margin: 0 auto;
   }
   .header-right li {
-    font-size: 14px; /* Reduce the font size for smaller screens */
-    margin-right: 5px; /* Adjust spacing for smaller screens */
+    font-size: 14px;
+    margin-right: 5px;
   }
   .card {
-    flex: 1 1 calc(33.33% - 20px); /* To display 3 items per line */
-    max-width: calc(33.33% - 20px); /* To display 3 items per line */
+    flex: 1 1 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
   }
 
   .cardimg {
-    max-width: 100%; /* Adjust the width as needed */
-    width: 100%; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%;
+    width: 100%;
+    height: auto;
   }
 
   .contact-image {

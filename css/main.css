@@ -599,7 +599,17 @@ footer .footer-left {
     align-items: center;
     text-align: center;
   }
+  .about-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
+  .about-style h2,
+  .about-style span {
+    margin: 0;
+  }
   .about .about-me {
     display: flex;
     flex-direction: column;

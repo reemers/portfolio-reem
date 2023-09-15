@@ -99,7 +99,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 1em;
   text-align: center;
-  background-color: #2e3347;
+  background-color: #111827;
 }
 
 ul,
@@ -351,9 +351,10 @@ footer .content-wrapper {
 /* Companies */
 .companies {
   padding-top: 40px;
-  background: #111827;
+  background: #2d5f5d;
   border-radius: 40px 40px 40px 40px;
-  color: #fff;
+  color: black;
+  font-weight: bolder;
   padding: 60px 90px;
 }
 .companies p {
@@ -380,7 +381,7 @@ footer .content-wrapper {
 }
 
 .companyimg {
-  background-color: whitesmoke;
+  background-color: #1e4258;
   width: 150px;
   height: 150px;
   display: flex;
@@ -411,14 +412,14 @@ footer .content-wrapper {
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 5px;
-  background: #7dce8260;
+  background: #2d5f5d;
   transition: transform 0.3s ease;
 }
 
 .project-item:hover {
   transform: translateY(-10px);
-  color: red;
-  background-color: pink;
+  color: white;
+  background-color: #00887a;
 }
 
 .projects h3 {
@@ -458,7 +459,7 @@ footer .content-wrapper {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #007bff;
+  background-color: #1f6521;
   color: #fff;
   padding: 8px 16px;
   border-radius: 4px;
@@ -469,8 +470,8 @@ footer .content-wrapper {
   width: fit-content;
 }
 .project-link:hover {
-  color: red;
-  background-color: purple;
+  color: white;
+  background-color: #844d36;
 }
 /* Contact */
 

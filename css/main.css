@@ -574,11 +574,41 @@ footer .footer-left {
     text-align: center;
     margin-left: 0%;
   }
+  .companies p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  footer .footer-right ul {
+    white-space: nowrap; /* Prevent items from wrapping */
+    overflow-x: auto; /* Add horizontal scrollbar if needed */
+    padding-bottom: 10px; /* Add some space at the bottom */
+  }
+
+  footer .footer-right li {
+    font-size: 14px; /* Resize font size as needed */
+    margin-right: 10px; /* Adjust spacing between items */
+  }
 }
 
 @media (max-width: 950px) {
   /* About */
   .about .content-wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about .about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about .statement {
+    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;

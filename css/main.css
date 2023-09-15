@@ -414,6 +414,14 @@ footer .content-wrapper {
   border: 1px solid #ddd;
   border-radius: 5px;
   background: #7dce8260;
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}
+
+/* Add a hover effect to move the project item on hover */
+.project-item:hover {
+  transform: translateY(-10px); /* Move the item 10 pixels up */
+  color: red;
+  background-color: pink;
 }
 
 .projects h3 {
@@ -457,12 +465,16 @@ footer .content-wrapper {
   color: #fff;
   padding: 8px 16px; /* Adjust padding to your preference */
   border-radius: 4px;
+  transition: color 0.3s ease;
   text-decoration: none;
   font-size: 14px; /* Adjust font size to your preference */
   margin: 10px auto; /* Center the link horizontally */
   width: fit-content; /* Only take the necessary width */
 }
-
+.project-link:hover {
+  color: red; /* Change the text color to red on hover */
+  background-color: purple;
+}
 /* Contact */
 
 .contact {

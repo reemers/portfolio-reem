@@ -311,7 +311,7 @@ footer .content-wrapper {
 .card {
   flex: 1 1 calc(12% - 20px);
   max-width: calc(12% - 20px);
-  background: #7dce8260;
+  background: #2d5f5d;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 15px;
   text-align: center;
@@ -353,7 +353,7 @@ footer .content-wrapper {
   padding-top: 40px;
   background: #2d5f5d;
   border-radius: 40px 40px 40px 40px;
-  color: black;
+  color: white;
   font-weight: bolder;
   padding: 60px 90px;
 }
@@ -381,9 +381,9 @@ footer .content-wrapper {
 }
 
 .companyimg {
-  background-color: #1e4258;
-  width: 150px;
-  height: 150px;
+  background-color: #2d5f5d;
+  width: 170px;
+  height: 170px;
   display: flex;
   padding-top: 0px;
   align-items: center;
@@ -412,7 +412,7 @@ footer .content-wrapper {
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 5px;
-  background: #2d5f5d;
+  background: #00887a;
   transition: transform 0.3s ease;
 }
 

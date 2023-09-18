@@ -339,7 +339,7 @@ footer .content-wrapper {
   line-height: 1.2;
   visibility: visible;
   display: block;
-  color: #57dbd4;
+  color: black;
 }
 
 @keyframes move {

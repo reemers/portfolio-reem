@@ -313,7 +313,7 @@ footer .content-wrapper {
 .card {
   flex: 1 1 calc(12% - 20px);
   max-width: calc(12% - 20px);
-  background: #407270;
+  background: #5a9290;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 15px;
   text-align: center;

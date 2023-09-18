@@ -353,7 +353,7 @@ footer .content-wrapper {
   padding-top: 40px;
   background: #2d5f5d;
   border-radius: 40px 40px 40px 40px;
-  color: white;
+  color: black;
   font-weight: bolder;
   padding: 60px 90px;
 }
@@ -381,7 +381,7 @@ footer .content-wrapper {
 }
 
 .companyimg {
-  background-color: #2d5f5d;
+  background-color: c8c0b8;
   width: 170px;
   height: 170px;
   display: flex;
@@ -410,16 +410,16 @@ footer .content-wrapper {
   width: 45%;
   margin: 10px;
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 0.5px solid #ddd;
   border-radius: 5px;
-  background: #00887a;
+  background: #111827;
   transition: transform 0.3s ease;
 }
 
 .project-item:hover {
   transform: translateY(-10px);
   color: white;
-  background-color: #00887a;
+  background-color: #111827;
 }
 
 .projects h3 {
@@ -459,10 +459,11 @@ footer .content-wrapper {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #1f6521;
-  color: #fff;
+  background-color: #111827;
+  color: #00887a;
   padding: 8px 16px;
   border-radius: 4px;
+  border: 1px solid #ddd;
   transition: color 0.3s ease;
   text-decoration: none;
   font-size: 14px;
@@ -471,7 +472,7 @@ footer .content-wrapper {
 }
 .project-link:hover {
   color: white;
-  background-color: #844d36;
+  background-color: #00887a;
 }
 /* Contact */
 

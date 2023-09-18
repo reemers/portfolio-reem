@@ -339,6 +339,7 @@ footer .content-wrapper {
   line-height: 1.2;
   visibility: visible;
   display: block;
+  color: #57dbd4;
 }
 
 @keyframes move {
@@ -355,7 +356,7 @@ footer .content-wrapper {
   padding-top: 40px;
   background: #2d5f5d;
   border-radius: 40px 40px 40px 40px;
-  color: black;
+  color: #57dbd4;
   font-weight: bolder;
   padding: 60px 90px;
 }
@@ -441,7 +442,7 @@ footer .content-wrapper {
   text-align: left;
 }
 .skills-tools span {
-  color: #00887a;
+  color: #57dbd4;
   text-decoration: underline;
 }
 .project-language {
@@ -466,7 +467,7 @@ footer .content-wrapper {
   align-items: center;
   text-align: center;
   background-color: #111827;
-  color: #00887a;
+  color: #57dbd4;
   padding: 8px 16px;
   border-radius: 4px;
   border: 1px solid #ddd;

@@ -313,7 +313,7 @@ footer .content-wrapper {
 .card {
   flex: 1 1 calc(12% - 20px);
   max-width: calc(12% - 20px);
-  background: #2d5f5d;
+  background: #407270;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 15px;
   text-align: center;
@@ -354,9 +354,9 @@ footer .content-wrapper {
 /* Companies */
 .companies {
   padding-top: 40px;
-  background: #2d5f5d;
+  background: #407270;
   border-radius: 40px 40px 40px 40px;
-  color: #57dbd4;
+  color: black;
   font-weight: bolder;
   padding: 60px 90px;
 }
@@ -384,7 +384,7 @@ footer .content-wrapper {
 }
 
 .companyimg {
-  background-color: #2d5f5d;
+  background-color: #407270;
   width: 170px;
   height: 170px;
   display: flex;

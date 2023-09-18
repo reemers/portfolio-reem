@@ -170,6 +170,8 @@ header .content-wrapper {
   flex-wrap: wrap;
   width: 80%;
   margin: 25px auto 0 auto;
+  position: relative;
+  z-index: 2;
 }
 
 .header-left h1 {
@@ -705,8 +707,9 @@ footer .footer-left {
     text-align: left;
   }
   .imageContainer {
-    position: absolute;
     max-width: 300px;
+    position: relative;
+    z-index: 1;
   }
   .about .about-style {
     display: flex;

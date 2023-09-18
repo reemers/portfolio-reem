@@ -297,7 +297,7 @@ footer .content-wrapper {
 /* Skills */
 
 .skills h2 span {
-  color: #7dce82;
+  color: #00887a;
 }
 
 .card-container {
@@ -395,7 +395,7 @@ footer .content-wrapper {
 /* Projects */
 
 .projects h2 span {
-  color: #c3c3e6;
+  color: #00887a;
 }
 
 .projects-wrapper {
@@ -503,7 +503,7 @@ footer .content-wrapper {
 }
 
 .contact h2 span {
-  color: #c3c3e6;
+  color: #00887a;
 }
 
 .contact-details .social-icon {
@@ -521,7 +521,7 @@ footer .content-wrapper {
 
 .contact address a {
   text-decoration: underline;
-  text-decoration-color: #c3c3e6;
+  text-decoration-color: #00887a;
   text-underline-offset: 8px;
 }
 .contact-image {
@@ -799,7 +799,7 @@ footer .footer-left {
   footer .skills-link > a:hover::after,
   li > a.active-nav::after {
     width: 100%;
-    background: #7dce82;
+    background: #00887a;
   }
 
   header .projects-link > a:hover::after,
@@ -807,13 +807,13 @@ footer .footer-left {
   footer .projects-link > a:hover::after,
   li > a.active-nav::after {
     width: 100%;
-    background: #c3c3e6;
+    background: #00887a;
   }
 
   header .contact-link > a:hover::after,
   li > a.active-nav::after {
     width: 100%;
-    background: #db8a74;
+    background: #00887a;
   }
 
   /* About */
@@ -861,7 +861,7 @@ footer .footer-left {
   }
 
   .fa-brands:hover {
-    color: #db8a74;
+    color: #00887a;
   }
 }
 

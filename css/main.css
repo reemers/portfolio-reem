@@ -249,11 +249,11 @@ footer .content-wrapper {
 .container {
   width: 63%;
   margin: 0;
-  max-width: 500px;
+  max-width: 300px;
   display: flex;
   align-items: center;
   position: relative;
-  height: 51vmin;
+  height: 30vmin;
   justify-content: space-between;
 }
 
@@ -272,9 +272,8 @@ footer .content-wrapper {
   visibility: visible;
   opacity: 1;
 }
-
 .about h2 {
-  margin: 0 auto 0 auto;
+  padding-top: 40px;
 }
 .statement span {
   color: #00887a;
@@ -391,7 +390,7 @@ footer .content-wrapper {
   padding-top: 0px;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 10px;
 }
 /* Projects */
 
@@ -613,10 +612,6 @@ footer .footer-left {
     padding-top: 15px;
   }
 
-  .about-style h2,
-  .about-style span {
-    margin: 0;
-  }
   .about .about-me {
     display: flex;
     flex-direction: column;
@@ -629,6 +624,9 @@ footer .footer-left {
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+  .about h2 {
+    margin-top: 40px;
   }
 
   .about-style,
@@ -655,6 +653,17 @@ footer .footer-left {
     max-width: 100%;
     width: 100%;
     height: auto;
+  }
+
+  .imageContainer {
+    position: absolute;
+    max-width: 300px;
+    padding-bottom: 20px;
+    padding-top: 55px;
+  }
+  #avatar,
+  .container {
+    width: 100%;
   }
 
   .contact-image {
@@ -695,7 +704,10 @@ footer .footer-left {
     margin: 50px auto;
     text-align: left;
   }
-
+  .imageContainer {
+    position: absolute;
+    max-width: 300px;
+  }
   .about .about-style {
     display: flex;
     justify-content: flex-start;
@@ -707,7 +719,7 @@ footer .footer-left {
   }
 
   .about h2 {
-    margin: 0;
+    padding-top: 20px;
   }
 
   .about p {

@@ -709,7 +709,7 @@ footer .footer-left {
   .imageContainer {
     max-width: 300px;
     position: relative;
-    z-index: 1; /* Lower z-index for the image container */
+    z-index: 1;
   }
   .about .about-style {
     display: flex;

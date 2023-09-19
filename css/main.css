@@ -434,6 +434,7 @@ footer .content-wrapper {
   box-shadow: 4px 1px 10px 1px rgba(110, 110, 110, 0.2);
   max-width: 100%;
   height: auto;
+  border-radius: 5px;
 }
 .skills-tools {
   font-size: 1rem;
